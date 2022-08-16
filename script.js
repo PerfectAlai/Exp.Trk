@@ -30,6 +30,9 @@ function addTransaction(e) {
 
     addTransactionDOM(transaction);
     updateValues();
+    updateLocalStorage();
+    text.value = '';
+    amount.value = '';
   }
 }
 // generate a random ID
